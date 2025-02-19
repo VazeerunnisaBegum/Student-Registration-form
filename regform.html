@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <center><h1>Student Registration Form</h1></center>
+    <form>
+        <table align="center" cellspacing="10" cellpadding="5" bgcolor="lightblue">
+            <tr>
+                <td>First Name: </td>
+                <td><input type="text" name="sfname" value=""></td>
+                
+            </tr>
+            <tr>
+                <td>LastName: </td>
+                <td><input type="text" name="slname" value=""></td>
+            </tr>
+            <tr>
+                <td>Father's Name: </td>
+                <td><input type="text" name="fname" value=""></td>
+            </tr>
+            <tr>
+                <td>Mother's Name: </td>
+                <td><input type="text" name="mname" value=""></td>
+            </tr>
+            <tr>
+                <td>Date of Birth: </td>
+                <td><input type="date" name="sdob" value=""></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="text" name="semail" value=""></td>
+            </tr>
+            <tr>
+                <td>Gender: </td>
+                <td><input type="radio" name="sgender" value="MALE">Male
+                <input type="radio" name="sgender" value="FEMALE">Female</td>
+            </tr>
+            <tr>
+                <td>Choose Course: </td>
+                    <td><select name="scourse">
+                        <option value="-1">--Select--</option>
+                        <option value="45">CSE(AI&DS)</option>
+                        <option value="42">CSE(AI&ML)</option>
+                        <option value="05">CSE</option>
+                        <option value="12">IT</option>
+                        <option value="46">CSE(CYBER)</option>
+                        <option value="04">ECE</option>
+                        <option value="02">EEE</option>
+                        <option value="01">CIVIL</option>
+                        <option value="03">MECH</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies: </td>
+                <td><input type="checkbox" name="shobbies value="sing">Singing
+                <input type="checkbox" name="shobbies" value="dance">Dancing
+                <input type="checkbox" name="shobbies" value="read">Reading books
+                <input type="checkbox" name="shobbies" value="play">Playing Cricket</td>
+            </tr>
+            <tr>
+                <td>Address: </td>
+                <td><textarea name="saddress" size="20"></textarea></td>
+            </tr>
+            <tr>
+                <td>Photo: </td>
+                <td><input type="file" name="sphoto"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
